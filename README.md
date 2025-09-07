@@ -67,42 +67,18 @@
       font-weight: bold;
       color: #333;
     }
-    /* Demo Ads */
-    .ad-box {
-      margin: 20px auto;
-      padding: 15px;
-      width: 90%;
-      max-width: 320px;
-      height: 100px;
-      border: 2px dashed #ccc;
-      border-radius: 8px;
-      background: #fafafa;
-      color: #555;
-      font-size: 14px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
   </style>
 </head>
 <body>
   <h1>₹1 सिक्का Toss</h1>
-
-  <!-- 🔹 Top Ad -->
-  <div class="ad-box">यहाँ Ad दिखेगा (Demo)</div>
-
   <div class="coin">
     <div class="coin-inner" id="coin">
       <div class="side head">Head</div>
       <div class="side tail">Tail</div>
     </div>
   </div>
-
   <button onclick="tossCoin()">Toss करें</button>
   <div class="result" id="result">👉 Toss करने के लिए बटन दबाएँ</div>
-
-  <!-- 🔹 Bottom Ad -->
-  <div class="ad-box">यहाँ भी Ad दिखेगा (Demo)</div>
 
   <script>
     function tossCoin() {
